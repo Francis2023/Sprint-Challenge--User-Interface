@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+
+.navigation{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    
+}
+.navigation a{
+    margin-right: 70px;
+
+}
+.topImage{
+    margin-top:2%;
+    margin-bottom: 20px;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,18 +102,51 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.aboutTopContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.aboutMiddleContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.aboutMiddleContent .about-content{
 
+    width: 48%;
+    margin-top:2%;
+    margin-bottom:2%;
+    border-bottom: 1px dashed black;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.aboutMiddleContent .about-content h2 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.aboutMiddleContent .about-content p{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.aboutMiddleContent .about-content button{
+    padding: 4px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -125,7 +182,14 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.bottomHeader{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.bottomP{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
 footer {
     width: 100%;
     background: black;
